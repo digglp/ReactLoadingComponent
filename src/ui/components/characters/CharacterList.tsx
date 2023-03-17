@@ -37,7 +37,7 @@ export const CharacterList = () => {
           {loading && (
             <Loader
               handler={characterListHandler}
-              handlerData={new CharacterListRequest(500, pageNumber)}
+              handlerData={new CharacterListRequest(5000, pageNumber)}
               onComplete={onLoadingComplete}
               onErrored={onLoadingErrored}
               failureMessage="Error loading character data"
