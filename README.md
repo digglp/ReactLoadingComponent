@@ -12,9 +12,9 @@ To use React Loading Component in your React project, install it via NPM:
 
 2. Set up the development environment variable
 
-on Windows Powershell:
+- on Windows Powershell:
 `$env: REACT_APP_ENVIRONMENT='development'`
-on mac:
+- on mac:
 `export REACT_APP_ENVIRONMENT=development`
 
 3. Run the application
